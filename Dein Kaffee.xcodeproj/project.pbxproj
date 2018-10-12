@@ -14,6 +14,10 @@
 		3DD67838217062F400B320C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD67836217062F400B320C0 /* LaunchScreen.storyboard */; };
 		3DD67843217062F400B320C0 /* Dein_KaffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD67842217062F400B320C0 /* Dein_KaffeeTests.swift */; };
 		3DD6784E217062F400B320C0 /* Dein_KaffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD6784D217062F400B320C0 /* Dein_KaffeeUITests.swift */; };
+		3DD6786A2170825200B320C0 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678692170824500B320C0 /* CaviarDreams.ttf */; };
+		3DD6786B2170825600B320C0 /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678652170820800B320C0 /* CaviarDreams_Bold.ttf */; };
+		3DD6786C2170825C00B320C0 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678662170820800B320C0 /* CaviarDreams_BoldItalic.ttf */; };
+		3DD6786D2170826000B320C0 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678672170820800B320C0 /* CaviarDreams_Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3DD67849217062F400B320C0 /* Dein KaffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dein KaffeeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD6784D217062F400B320C0 /* Dein_KaffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dein_KaffeeUITests.swift; sourceTree = "<group>"; };
 		3DD6784F217062F400B320C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD678652170820800B320C0 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		3DD678662170820800B320C0 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
+		3DD678672170820800B320C0 /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Italic.ttf; sourceTree = "<group>"; };
+		3DD678682170824500B320C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/CaviarDreams.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,11 @@
 		3DD6782C217062F000B320C0 /* Dein Kaffee */ = {
 			isa = PBXGroup;
 			children = (
+				3DD6786221707B4600B320C0 /* Resources */,
 				3DD6785F217063A400B320C0 /* app */,
 				3DD6785E2170634200B320C0 /* ViewControllers */,
 				3DD6785D2170633200B320C0 /* Models */,
 				3DD6785C2170632500B320C0 /* Views */,
-				3DD67834217062F400B320C0 /* Assets.xcassets */,
 			);
 			path = "Dein Kaffee";
 			sourceTree = "<group>";
@@ -155,6 +163,27 @@
 				3DD67839217062F400B320C0 /* Info.plist */,
 			);
 			name = app;
+			sourceTree = "<group>";
+		};
+		3DD6786221707B4600B320C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DD678632170820800B320C0 /* caviar_dreams */,
+				3DD67834217062F400B320C0 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DD678632170820800B320C0 /* caviar_dreams */ = {
+			isa = PBXGroup;
+			children = (
+				3DD678692170824500B320C0 /* CaviarDreams.ttf */,
+				3DD678652170820800B320C0 /* CaviarDreams_Bold.ttf */,
+				3DD678662170820800B320C0 /* CaviarDreams_BoldItalic.ttf */,
+				3DD678672170820800B320C0 /* CaviarDreams_Italic.ttf */,
+			);
+			name = caviar_dreams;
+			path = ../caviar_dreams;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD6786D2170826000B320C0 /* CaviarDreams_Italic.ttf in Resources */,
+				3DD6786C2170825C00B320C0 /* CaviarDreams_BoldItalic.ttf in Resources */,
+				3DD6786B2170825600B320C0 /* CaviarDreams_Bold.ttf in Resources */,
+				3DD6786A2170825200B320C0 /* CaviarDreams.ttf in Resources */,
 				3DD67838217062F400B320C0 /* LaunchScreen.storyboard in Resources */,
 				3DD67835217062F400B320C0 /* Assets.xcassets in Resources */,
 				3DD67833217062F000B320C0 /* Main.storyboard in Resources */,
@@ -339,6 +372,14 @@
 				3DD67837217062F400B320C0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD678692170824500B320C0 /* CaviarDreams.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD678682170824500B320C0 /* Base */,
+			);
+			name = CaviarDreams.ttf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
