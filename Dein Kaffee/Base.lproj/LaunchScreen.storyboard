@@ -18,25 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeinKaffee" highlightedImage="deinKaffee" translatesAutoresizingMaskIntoConstraints="NO" id="nvv-rn-RZl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeinKaffee" highlightedImage="DeinKaffee" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hk6-M9-QRr">
                                 <rect key="frame" x="-4" y="214" width="383" height="238"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.33333333333333331" green="0.21568627450980393" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nvv-rn-RZl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-0.5" id="j7G-hc-jt1"/>
-                            <constraint firstItem="nvv-rn-RZl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kRB-99-BQc"/>
+                            <constraint firstItem="hk6-M9-QRr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Noz-gv-hle"/>
+                            <constraint firstItem="hk6-M9-QRr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gS0-2C-07c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
         <image name="DeinKaffee" width="383" height="238"/>
-        <image name="deinKaffee" width="373" height="230"/>
     </resources>
 </document>

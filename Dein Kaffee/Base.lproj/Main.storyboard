@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,7 +29,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrZ-4V-rGw">
-                                <rect key="frame" x="28.5" y="20" width="318.5" height="90"/>
+                                <rect key="frame" x="29" y="20" width="318.5" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="65G-VS-csL"/>
                                 </constraints>
@@ -57,7 +58,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h85-2e-YQn">
-                                <rect key="frame" x="141" y="514" width="92" height="40"/>
+                                <rect key="frame" x="141.5" y="514" width="92" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="h85-2e-YQn" secondAttribute="height" multiplier="23:10" id="UtA-Wh-qtz"/>
                                 </constraints>
@@ -105,16 +106,16 @@
             </objects>
             <point key="canvasLocation" x="1020" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Bebidas-->
         <scene sceneID="EPX-wP-bDn">
             <objects>
-                <viewController id="kQY-Gq-5Sc" sceneMemberID="viewController">
+                <viewController id="kQY-Gq-5Sc" customClass="ViewControllerBebidas" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DZR-pk-GGM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menú" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ein-cf-J1I">
-                                <rect key="frame" x="122" y="20" width="131.5" height="90"/>
+                                <rect key="frame" x="122.5" y="20" width="131.5" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="qyp-jU-7Wf"/>
                                     <constraint firstAttribute="height" constant="90" id="swI-Bz-MvP"/>
@@ -129,15 +130,46 @@
                                 <color key="separatorColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="Y9N-u8-5pN">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellBebida" rowHeight="80" id="Y9N-u8-5pN" customClass="celdaBebidas" customModule="Dein_Kaffee" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y9N-u8-5pN" id="Yee-nW-0zU">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eiq-mJ-coZ">
+                                                    <rect key="frame" x="15" y="11" width="66" height="58"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="66" id="JUA-5F-0rr"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qml-l8-ySk">
+                                                    <rect key="frame" x="110" y="24" width="63.5" height="30"/>
+                                                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="25"/>
+                                                    <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="eiq-mJ-coZ" firstAttribute="top" secondItem="Yee-nW-0zU" secondAttribute="top" constant="11" id="3lN-PG-3ks"/>
+                                                <constraint firstAttribute="bottom" secondItem="eiq-mJ-coZ" secondAttribute="bottom" constant="10.5" id="FfG-iE-aC8"/>
+                                                <constraint firstItem="qml-l8-ySk" firstAttribute="leading" secondItem="eiq-mJ-coZ" secondAttribute="trailing" constant="29" id="Msd-Tv-XtE"/>
+                                                <constraint firstItem="qml-l8-ySk" firstAttribute="top" secondItem="Yee-nW-0zU" secondAttribute="topMargin" constant="13" id="URG-Vb-NMe"/>
+                                                <constraint firstItem="eiq-mJ-coZ" firstAttribute="leading" secondItem="Yee-nW-0zU" secondAttribute="leading" constant="15" id="d3p-U2-PcP"/>
+                                                <constraint firstItem="qml-l8-ySk" firstAttribute="centerY" secondItem="Yee-nW-0zU" secondAttribute="centerY" id="gaD-p5-yMK"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="imgIconoBebidas" destination="eiq-mJ-coZ" id="Qni-Be-9ZV"/>
+                                            <outlet property="lblBebida" destination="qml-l8-ySk" id="o8X-cn-qFu"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="kQY-Gq-5Sc" id="cPr-Qu-AzF"/>
+                                    <outlet property="delegate" destination="kQY-Gq-5Sc" id="Xea-TH-hUe"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -151,6 +183,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="P4y-88-HC0"/>
                     </view>
+                    <connections>
+                        <outlet property="tbBebidas" destination="hwE-mi-YuE" id="rd1-Wo-e0v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SDD-tS-tkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

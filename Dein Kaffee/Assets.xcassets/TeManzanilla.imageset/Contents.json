@@ -1,0 +1,23 @@
+{
+    "images" : [
+        {
+            "idiom" : "universal",
+            "scale" : "1x",
+            "filename" : "TeManzanilla@1x.png"
+        },
+        {
+            "idiom" : "universal",
+            "scale" : "2x",
+            "filename" : "TeManzanilla@2x.png"
+        },
+        {
+            "idiom" : "universal",
+            "scale" : "3x",
+            "filename" : "TeManzanilla@3x.png"
+        }
+    ],
+    "info" : {
+        "version" : 1,
+        "author" : "xcode"
+    }
+}
