@@ -18,11 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deinKaffee" highlightedImage="deinKaffee" translatesAutoresizingMaskIntoConstraints="NO" id="nvv-rn-RZl">
-                                <rect key="frame" x="1" y="218" width="373" height="230"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeinKaffee" highlightedImage="deinKaffee" translatesAutoresizingMaskIntoConstraints="NO" id="nvv-rn-RZl">
+                                <rect key="frame" x="-4" y="214" width="383" height="238"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.27450980392156865" green="0.1803921568627451" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.33333333333333331" green="0.21568627450980393" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nvv-rn-RZl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-0.5" id="j7G-hc-jt1"/>
                             <constraint firstItem="nvv-rn-RZl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kRB-99-BQc"/>
@@ -36,6 +36,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DeinKaffee" width="383" height="238"/>
         <image name="deinKaffee" width="373" height="230"/>
     </resources>
 </document>
