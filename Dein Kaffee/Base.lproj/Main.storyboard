@@ -125,16 +125,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hwE-mi-YuE">
-                                <rect key="frame" x="0.0" y="118" width="375" height="529"/>
+                                <rect key="frame" x="0.0" y="118" width="359" height="549"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellBebida" rowHeight="80" id="Y9N-u8-5pN" customClass="celdaBebidas" customModule="Dein_Kaffee" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="28" width="359" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y9N-u8-5pN" id="Yee-nW-0zU">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="359" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eiq-mJ-coZ">
@@ -174,12 +174,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="hwE-mi-YuE" firstAttribute="top" secondItem="Ein-cf-J1I" secondAttribute="bottom" constant="8" id="2nC-d4-Ube"/>
                             <constraint firstItem="Ein-cf-J1I" firstAttribute="top" secondItem="P4y-88-HC0" secondAttribute="top" id="8cO-o9-ExF"/>
-                            <constraint firstItem="P4y-88-HC0" firstAttribute="bottom" secondItem="hwE-mi-YuE" secondAttribute="bottom" constant="20" id="aMK-n0-V4E"/>
+                            <constraint firstItem="hwE-mi-YuE" firstAttribute="leading" secondItem="P4y-88-HC0" secondAttribute="leading" id="TUN-Mf-yN9"/>
+                            <constraint firstItem="P4y-88-HC0" firstAttribute="trailing" secondItem="hwE-mi-YuE" secondAttribute="trailing" constant="16" id="byo-ki-eSc"/>
                             <constraint firstItem="Ein-cf-J1I" firstAttribute="centerX" secondItem="DZR-pk-GGM" secondAttribute="centerX" id="kWT-HC-OAG"/>
-                            <constraint firstItem="hwE-mi-YuE" firstAttribute="trailing" secondItem="P4y-88-HC0" secondAttribute="trailing" id="ohR-L7-OEE"/>
-                            <constraint firstItem="hwE-mi-YuE" firstAttribute="top" secondItem="Ein-cf-J1I" secondAttribute="bottom" constant="8" id="sHq-7w-5fB"/>
-                            <constraint firstItem="hwE-mi-YuE" firstAttribute="leading" secondItem="P4y-88-HC0" secondAttribute="leading" id="x5t-e9-eDI"/>
+                            <constraint firstItem="hwE-mi-YuE" firstAttribute="bottom" secondItem="P4y-88-HC0" secondAttribute="bottom" id="pge-nd-KLo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="P4y-88-HC0"/>
                     </view>
