@@ -33,6 +33,47 @@ class BebidaDetalleViewController : UIViewController {
             lblDescripcion.text = bebidaSeleccionada.descripcionBebida
             imgBebida.image = bebidaSeleccionada.imagenBebida
             
+            let calificacion = Int(bebidaSeleccionada.calificacionBebida)
+            
+            switch calificacion {
+            case 1:
+                imgCalificacion1.isHidden = false
+                imgCalificacion2.isHidden = true
+                imgCalificacion3.isHidden = true
+                imgCalificacion4.isHidden = true
+                imgCalificacion5.isHidden = true
+            case 2:
+                imgCalificacion1.isHidden = false
+                imgCalificacion2.isHidden = false
+                imgCalificacion3.isHidden = true
+                imgCalificacion4.isHidden = true
+                imgCalificacion5.isHidden = true
+            case 3:
+                imgCalificacion1.isHidden = false
+                imgCalificacion2.isHidden = false
+                imgCalificacion3.isHidden = false
+                imgCalificacion4.isHidden = true
+                imgCalificacion5.isHidden = true
+            case 4:
+                imgCalificacion1.isHidden = false
+                imgCalificacion2.isHidden = false
+                imgCalificacion3.isHidden = false
+                imgCalificacion4.isHidden = false
+                imgCalificacion5.isHidden = true
+            case 5:
+                imgCalificacion1.isHidden = false
+                imgCalificacion2.isHidden = false
+                imgCalificacion3.isHidden = false
+                imgCalificacion4.isHidden = false
+                imgCalificacion5.isHidden = false
+            default:
+                imgCalificacion1.isHidden = true
+                imgCalificacion2.isHidden = true
+                imgCalificacion3.isHidden = true
+                imgCalificacion4.isHidden = true
+                imgCalificacion5.isHidden = true
+            }
+            
         }
     }
     

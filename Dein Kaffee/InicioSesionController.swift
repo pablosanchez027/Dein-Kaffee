@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class InicioSesionController : UIViewController {
+class InicioSesionController : UIViewController, UITextFieldDelegate {
     @IBOutlet weak var txtUsername: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var lblWarning: UILabel!

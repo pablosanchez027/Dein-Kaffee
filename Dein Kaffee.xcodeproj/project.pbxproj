@@ -27,6 +27,7 @@
 		3DD6786B2170825600B320C0 /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678652170820800B320C0 /* CaviarDreams_Bold.ttf */; };
 		3DD6786C2170825C00B320C0 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678662170820800B320C0 /* CaviarDreams_BoldItalic.ttf */; };
 		3DD6786D2170826000B320C0 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD678672170820800B320C0 /* CaviarDreams_Italic.ttf */; };
+		3DEB73E02174EB2100A457C6 /* ComentarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB73DF2174EB2100A457C6 /* ComentarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		3DD678662170820800B320C0 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
 		3DD678672170820800B320C0 /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Italic.ttf; sourceTree = "<group>"; };
 		3DD678682170824500B320C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/CaviarDreams.ttf; sourceTree = "<group>"; };
+		3DEB73DF2174EB2100A457C6 /* ComentarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				3DD6782F217062F000B320C0 /* ViewController.swift */,
 				3D0F49DC217093E40026B2CB /* InicioSesionController.swift */,
 				3D6CFC9D2172A69E00D0825A /* BebidaDetalleViewController.swift */,
+				3DEB73DF2174EB2100A457C6 /* ComentarViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				3DAAF8F82170AE35007BC4BD /* BebidasCalientesViewController.swift in Sources */,
 				3DAAF8F62170AB2C007BC4BD /* Bebida.swift in Sources */,
 				3DAAF8FC2170B795007BC4BD /* celdaBebidas.swift in Sources */,
+				3DEB73E02174EB2100A457C6 /* ComentarViewController.swift in Sources */,
 				3D6CFCA22172B73E00D0825A /* celdaComentarios.swift in Sources */,
 				3D6CFC9C2172925200D0825A /* BebidasFriasViewController.swift in Sources */,
 				3DD6782E217062F000B320C0 /* AppDelegate.swift in Sources */,
