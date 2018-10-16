@@ -12,7 +12,7 @@ import UIKit
 class PedidosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var pedidos: Pedido?
-    
+    var totalCompra :Int = 0
     @IBOutlet weak var tbPedidos: UITableView!
     @IBOutlet weak var lblTotal: UILabel!
     let Pedidos : [Pedido] = []
@@ -27,7 +27,9 @@ class PedidosViewController: UIViewController, UITableViewDataSource, UITableVie
         celda.lblPedidos.text = Pedidos[indexPath.row].bebidaPedido
         celda.lblPrecio.text = "$ " + Pedidos[indexPath.row].bebidaPedido
         
-        lblTotal.text = "$ " + String(pedidos!.totalPedido)
+        totalCompra = totalCompra + (pedidos?.totalPedido)!
+        
+        lblTotal.text = "$ " + String(totalCompra)
         
         return celda
     }

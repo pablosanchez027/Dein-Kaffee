@@ -83,6 +83,12 @@ class BebidaDetalleViewController : UIViewController {
             
             destino.comentarios = bebida?.comentariosBebida
             destino.bebida = bebida
+        } else if segue.identifier == "goToComprar" {
+            let destino = segue.destination as! ComprarViewController
+            
+            destino.bebida = bebida
         }
     }
+    
+    
 }

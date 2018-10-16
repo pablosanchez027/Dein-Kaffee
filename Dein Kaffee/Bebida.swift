@@ -12,24 +12,26 @@ import UIKit
 class Bebida {
     var nombreBebida : String
     var descripcionBebida : String
-    var precioBebida : Double
+    var precioBebida : Int
     var iconoBebida : UIImage
     var imagenBebida : UIImage
     var calificacionBebida : Double
     var comentariosBebida : [Comentario] = []
+    var tipoBebida : Int
     
     
     init() {
         nombreBebida = ""
         descripcionBebida = ""
-        precioBebida = 0.0
+        precioBebida = 0
         iconoBebida = UIImage()
         imagenBebida = UIImage()
         calificacionBebida = 0.0
         comentariosBebida = []
+        tipoBebida = 0
     }
     
-    init(nombreBebida : String, descripcionBebida : String, precioBebida : Double, iconoBebida : UIImage, imagenBebida : UIImage, calificacionBebida : Double, comentariosBebida : [Comentario]) {
+    init(nombreBebida : String, descripcionBebida : String, precioBebida : Int, iconoBebida : UIImage, imagenBebida : UIImage, calificacionBebida : Double, comentariosBebida : [Comentario], tipoBebida: Int) {
         self.nombreBebida = nombreBebida
         self.descripcionBebida = descripcionBebida
         self.precioBebida = precioBebida
@@ -37,5 +39,6 @@ class Bebida {
         self.imagenBebida = imagenBebida
         self.calificacionBebida = calificacionBebida
         self.comentariosBebida = comentariosBebida
+        self.tipoBebida = tipoBebida
     }
 }

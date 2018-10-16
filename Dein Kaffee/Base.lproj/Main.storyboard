@@ -205,12 +205,6 @@
                                     <constraint firstAttribute="width" constant="35" id="jjh-wy-hsR"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calificación:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfJ-Ty-8IT">
-                                <rect key="frame" x="16" y="348" width="105.5" height="22"/>
-                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
-                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBd-hO-eey">
                                 <rect key="frame" x="16" y="396" width="55.5" height="22"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
@@ -232,6 +226,9 @@
                                 <state key="normal" title="Comprar" backgroundImage="Button">
                                     <color key="titleColor" red="0.85098039215686272" green="0.56470588235294117" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Kca-iT-R01" kind="show" identifier="goToComprar" id="pFF-5I-iUf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQb-gL-Zq1">
                                 <rect key="frame" x="300" y="396" width="59" height="22"/>
@@ -263,10 +260,10 @@
                         <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dBd-hO-eey" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="63" id="1fx-sM-qkP"/>
                             <constraint firstItem="4XN-uj-z11" firstAttribute="centerX" secondItem="xgH-yb-nsf" secondAttribute="centerX" id="2Qq-dj-2IW"/>
                             <constraint firstItem="zDd-Tm-9NB" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="8" id="6bM-kk-u2b"/>
                             <constraint firstItem="4Ao-7i-kNk" firstAttribute="trailing" secondItem="Ofq-uL-Tu4" secondAttribute="trailing" constant="16" id="6xB-d6-p55"/>
-                            <constraint firstItem="nfJ-Ty-8IT" firstAttribute="leading" secondItem="xgH-yb-nsf" secondAttribute="leadingMargin" id="Bj9-ld-oIA"/>
                             <constraint firstItem="zDd-Tm-9NB" firstAttribute="leading" secondItem="CtK-gb-EoC" secondAttribute="trailing" constant="6" id="Bvt-Kb-HSC"/>
                             <constraint firstItem="UWY-QA-STm" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="8" id="CEM-Nf-Ma6"/>
                             <constraint firstItem="4XN-uj-z11" firstAttribute="top" secondItem="JAc-Ci-jWZ" secondAttribute="bottom" constant="8" id="FX7-LT-CPF"/>
@@ -283,8 +280,6 @@
                             <constraint firstItem="0Cm-zn-aaq" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="8" id="gZB-KL-El7"/>
                             <constraint firstItem="RQb-gL-Zq1" firstAttribute="trailing" secondItem="xgH-yb-nsf" secondAttribute="trailingMargin" id="jSM-UG-wAc"/>
                             <constraint firstItem="Gdd-Io-973" firstAttribute="top" secondItem="dBd-hO-eey" secondAttribute="bottom" constant="26" id="mjl-6m-SIr"/>
-                            <constraint firstItem="dBd-hO-eey" firstAttribute="top" secondItem="nfJ-Ty-8IT" secondAttribute="bottom" constant="26" id="oEW-QA-GPO"/>
-                            <constraint firstItem="nfJ-Ty-8IT" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="15" id="qYZ-lw-CRm"/>
                             <constraint firstItem="JAc-Ci-jWZ" firstAttribute="centerX" secondItem="xgH-yb-nsf" secondAttribute="centerX" id="r68-9i-06z"/>
                             <constraint firstItem="RQb-gL-Zq1" firstAttribute="top" secondItem="Ofq-uL-Tu4" secondAttribute="bottom" constant="20" id="wKV-JM-kpf"/>
                             <constraint firstItem="UWY-QA-STm" firstAttribute="leading" secondItem="0Cm-zn-aaq" secondAttribute="trailing" constant="8" id="zYG-Rx-EBg"/>
@@ -818,20 +813,162 @@
             </objects>
             <point key="canvasLocation" x="2813.5999999999999" y="883.80809595202402"/>
         </scene>
-        <!--View Controller-->
+        <!--Comprar View Controller-->
         <scene sceneID="9ls-07-uVM">
             <objects>
-                <viewController id="Kca-iT-R01" sceneMemberID="viewController">
+                <viewController id="Kca-iT-R01" customClass="ComprarViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zgf-5Y-Ji0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bebida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWm-1a-UTH">
+                                <rect key="frame" x="151" y="134" width="73" height="24.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Italic" family="Caviar Dreams" pointSize="22"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes extra:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfJ-Ty-8IT">
+                                <rect key="frame" x="16" y="166" width="156" height="22"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Z7o-Ik-k0c">
+                                <rect key="frame" x="265" y="199" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stpIngrediente1Action:" destination="Kca-iT-R01" eventType="valueChanged" id="rrn-lv-SYg"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 1" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGe-wr-HYd">
+                                <rect key="frame" x="16" y="203" width="241" height="20"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgt-RR-96B">
+                                <rect key="frame" x="180.5" y="231" width="13" height="25.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="vFb-Hz-s71">
+                                <rect key="frame" x="265" y="259" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stpIngrediente2Action:" destination="Kca-iT-R01" eventType="valueChanged" id="2Dr-56-h8u"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 2" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biC-lN-t1H">
+                                <rect key="frame" x="16" y="263" width="241" height="20"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tq-5E-GiB">
+                                <rect key="frame" x="180.5" y="291" width="13" height="25.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Lam-sX-1TE">
+                                <rect key="frame" x="265" y="319" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stpIngrediente3Action:" destination="Kca-iT-R01" eventType="valueChanged" id="aXe-Cy-bQH"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 3" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNG-vD-UcK">
+                                <rect key="frame" x="16" y="323" width="241" height="20"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yn-Co-gWx">
+                                <rect key="frame" x="180.5" y="351" width="13" height="25.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOE-0S-Cnb">
+                                <rect key="frame" x="141" y="558" width="92" height="40"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
+                                <state key="normal" title="Confirmar" backgroundImage="Button">
+                                    <color key="titleColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="doTapComprar:" destination="Kca-iT-R01" eventType="touchUpInside" id="bN1-OF-4tC"/>
+                                    <outletCollection property="gestureRecognizers" destination="JXT-eU-CWS" appends="YES" id="e32-u7-WE0"/>
+                                    <outletCollection property="gestureRecognizers" destination="M5A-lX-a4b" appends="YES" id="Sbe-Kz-WQx"/>
+                                    <segue destination="hD7-FJ-Lxm" kind="show" identifier="goToCompra" id="wTh-fn-mwM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Fb-fe-bFp">
+                                <rect key="frame" x="137.5" y="443" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="enI-Pt-hzV"/>
+                                    <constraint firstAttribute="height" constant="100" id="yBy-zZ-nln"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bebida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfI-LU-0Aj">
+                                <rect key="frame" x="151" y="410" width="77" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="22"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nWm-1a-UTH" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="0Ec-kG-zhi"/>
+                            <constraint firstItem="nfJ-Ty-8IT" firstAttribute="top" secondItem="nWm-1a-UTH" secondAttribute="bottom" constant="8" id="4Pl-PT-GrN"/>
+                            <constraint firstItem="biC-lN-t1H" firstAttribute="leading" secondItem="h6Z-Wh-gOk" secondAttribute="leading" constant="16" id="4Z5-Xd-5ia"/>
+                            <constraint firstItem="Lam-sX-1TE" firstAttribute="top" secondItem="vFb-Hz-s71" secondAttribute="bottom" constant="31" id="5f3-tx-9U6"/>
+                            <constraint firstItem="nfJ-Ty-8IT" firstAttribute="leading" secondItem="h6Z-Wh-gOk" secondAttribute="leading" constant="16" id="6x5-ej-1tm"/>
+                            <constraint firstItem="Z7o-Ik-k0c" firstAttribute="top" secondItem="h6Z-Wh-gOk" secondAttribute="top" constant="81" id="Agb-Ov-OvH"/>
+                            <constraint firstItem="biC-lN-t1H" firstAttribute="top" secondItem="LGe-wr-HYd" secondAttribute="bottom" constant="40" id="Bve-bO-UjG"/>
+                            <constraint firstItem="vFb-Hz-s71" firstAttribute="leading" secondItem="biC-lN-t1H" secondAttribute="trailing" constant="8" id="DBG-JD-9cI"/>
+                            <constraint firstItem="1Fb-fe-bFp" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="DUX-Ep-0WL"/>
+                            <constraint firstItem="h6Z-Wh-gOk" firstAttribute="bottom" secondItem="DOE-0S-Cnb" secondAttribute="bottom" constant="20" id="HGt-oe-u1E"/>
+                            <constraint firstItem="h6Z-Wh-gOk" firstAttribute="trailing" secondItem="Z7o-Ik-k0c" secondAttribute="trailing" constant="16" id="JQG-cP-YpG"/>
+                            <constraint firstItem="Z7o-Ik-k0c" firstAttribute="leading" secondItem="LGe-wr-HYd" secondAttribute="trailing" constant="8" id="JSr-L1-KhA"/>
+                            <constraint firstItem="jgt-RR-96B" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="KmD-IL-gKg"/>
+                            <constraint firstItem="4Tq-5E-GiB" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="O4J-eQ-G0s"/>
+                            <constraint firstItem="h6Z-Wh-gOk" firstAttribute="trailing" secondItem="Lam-sX-1TE" secondAttribute="trailing" constant="16" id="OlF-hx-Rqy"/>
+                            <constraint firstItem="LGe-wr-HYd" firstAttribute="top" secondItem="nfJ-Ty-8IT" secondAttribute="bottom" constant="15" id="Oov-Mm-uP8"/>
+                            <constraint firstItem="HNG-vD-UcK" firstAttribute="leading" secondItem="h6Z-Wh-gOk" secondAttribute="leading" constant="16" id="RCZ-AH-oJg"/>
+                            <constraint firstItem="DOE-0S-Cnb" firstAttribute="top" secondItem="1Fb-fe-bFp" secondAttribute="bottom" constant="15" id="Rx9-OZ-DQu"/>
+                            <constraint firstItem="Lam-sX-1TE" firstAttribute="leading" secondItem="HNG-vD-UcK" secondAttribute="trailing" constant="8" id="SFh-Bv-lsz"/>
+                            <constraint firstItem="nWm-1a-UTH" firstAttribute="top" secondItem="h6Z-Wh-gOk" secondAttribute="top" constant="16" id="VAK-pk-qpv"/>
+                            <constraint firstItem="HNG-vD-UcK" firstAttribute="top" secondItem="biC-lN-t1H" secondAttribute="bottom" constant="40" id="Xph-XV-pLs"/>
+                            <constraint firstItem="LGe-wr-HYd" firstAttribute="leading" secondItem="h6Z-Wh-gOk" secondAttribute="leading" constant="16" id="blF-1G-FcB"/>
+                            <constraint firstItem="jgt-RR-96B" firstAttribute="top" secondItem="LGe-wr-HYd" secondAttribute="bottom" constant="8" id="dDg-Lq-fxM"/>
+                            <constraint firstItem="vFb-Hz-s71" firstAttribute="top" secondItem="Z7o-Ik-k0c" secondAttribute="bottom" constant="31" id="e8s-qg-GdU"/>
+                            <constraint firstItem="4Tq-5E-GiB" firstAttribute="top" secondItem="biC-lN-t1H" secondAttribute="bottom" constant="8" id="lLW-sF-ye8"/>
+                            <constraint firstItem="1Yn-Co-gWx" firstAttribute="top" secondItem="HNG-vD-UcK" secondAttribute="bottom" constant="8" id="q55-r4-Wj7"/>
+                            <constraint firstItem="1Yn-Co-gWx" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="qVp-A4-bt9"/>
+                            <constraint firstItem="nfJ-Ty-8IT" firstAttribute="leading" secondItem="Zgf-5Y-Ji0" secondAttribute="leadingMargin" id="svF-Gz-3Gr"/>
+                            <constraint firstItem="h6Z-Wh-gOk" firstAttribute="trailing" secondItem="vFb-Hz-s71" secondAttribute="trailing" constant="16" id="wJt-Sv-ICa"/>
+                            <constraint firstItem="DOE-0S-Cnb" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="z17-go-nXP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="h6Z-Wh-gOk"/>
                     </view>
+                    <connections>
+                        <outlet property="imgBebida" destination="1Fb-fe-bFp" id="vr1-PW-Bop"/>
+                        <outlet property="lblIngrediente1" destination="LGe-wr-HYd" id="FCa-jB-sm0"/>
+                        <outlet property="lblIngrediente1Counter" destination="jgt-RR-96B" id="GK0-L5-4uE"/>
+                        <outlet property="lblIngrediente2" destination="biC-lN-t1H" id="4Ea-6q-5nh"/>
+                        <outlet property="lblIngrediente2Counter" destination="4Tq-5E-GiB" id="Bgx-hC-iTY"/>
+                        <outlet property="lblIngrediente3" destination="HNG-vD-UcK" id="8Qa-3b-IGj"/>
+                        <outlet property="lblIngrediente3Counter" destination="1Yn-Co-gWx" id="PN3-As-ZsB"/>
+                        <outlet property="lblPrecioBebida" destination="xfI-LU-0Aj" id="gV8-Av-9J7"/>
+                        <outlet property="lblTituloBebida" destination="nWm-1a-UTH" id="yGA-Gl-e8x"/>
+                        <outlet property="stpIngrediente1" destination="Z7o-Ik-k0c" id="izO-dD-U1C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1a-OG-itk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="JXT-eU-CWS"/>
+                <tapGestureRecognizer id="M5A-lX-a4b"/>
             </objects>
-            <point key="canvasLocation" x="4713" y="114"/>
+            <point key="canvasLocation" x="4712.8000000000002" y="113.79310344827587"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tlU-uX-vuZ">
@@ -886,5 +1023,8 @@
         <image name="comentarioLink" width="278" height="48"/>
         <image name="corazon" width="16" height="15"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wTh-fn-mwM"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

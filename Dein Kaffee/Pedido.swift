@@ -11,20 +11,26 @@ import UIKit
 
 class Pedido {
     var bebidaPedido : String
-    var ingredientePedido : Int
+    var ingrediente1Pedido : Int
+    var ingrediente2Pedido : Int
+    var ingrediente3Pedido : Int
     var precioPedido : Int
-    var totalPedido : Int
+    var totalPedido: Int
     
     init() {
         bebidaPedido = ""
-        ingredientePedido = 0
+        ingrediente1Pedido = 0
+        ingrediente2Pedido = 0
+        ingrediente3Pedido = 0
         precioPedido = 0
         totalPedido = 0
     }
     
-    init(bebidaPedido : String, ingredientePedido : Int, precioPedido : Int, totalPedido : Int) {
+    init(bebidaPedido : String, ingrediente1Pedido : Int, ingrediente2Pedido : Int,ingrediente3Pedido : Int, precioPedido : Int, totalPedido : Int) {
         self.bebidaPedido = bebidaPedido
-        self.ingredientePedido = ingredientePedido
+        self.ingrediente1Pedido = ingrediente1Pedido
+        self.ingrediente2Pedido = ingrediente2Pedido
+        self.ingrediente3Pedido = ingrediente3Pedido
         self.precioPedido = precioPedido
         self.totalPedido = totalPedido
     }
