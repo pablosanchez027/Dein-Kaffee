@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "BebidasIcono.png",
+      "filename" : "CarritoIcono.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "BebidasIcono@2x.png",
+      "filename" : "CarritoIcono@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "BebidasIcono@3x.png",
+      "filename" : "CarritoIcono@3x.png",
       "scale" : "3x"
     }
   ],

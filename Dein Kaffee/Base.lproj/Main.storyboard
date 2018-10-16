@@ -165,7 +165,7 @@
         <!--Bebida Detalle View Controller-->
         <scene sceneID="ama-F6-eAx">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="T2d-Lm-Mbx" customClass="BebidaDetalleViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="T2d-Lm-Mbx" customClass="BebidaDetalleViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xgH-yb-nsf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -233,21 +233,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4XN-uj-z11">
-                                <rect key="frame" x="141.5" y="607" width="92" height="40"/>
-                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <rect key="frame" x="141.5" y="558" width="92" height="40"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
                                 <state key="normal" title="Comprar" backgroundImage="Button">
                                     <color key="titleColor" red="0.85098039215686272" green="0.56470588235294117" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAc-Ci-jWZ">
-                                <rect key="frame" x="48.5" y="526" width="278" height="48"/>
-                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
-                                <state key="normal" title="Comentarios" backgroundImage="comentarioLink">
-                                    <color key="titleColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Try-RZ-SMT" kind="show" identifier="goToComentarios" id="r2H-Rm-cyd"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQb-gL-Zq1">
                                 <rect key="frame" x="300" y="394" width="59" height="22"/>
@@ -265,6 +255,16 @@
                                     <constraint firstAttribute="height" constant="215" id="ix8-7d-NSH"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAc-Ci-jWZ">
+                                <rect key="frame" x="48" y="502" width="278" height="48"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <state key="normal" title="Comentarios" backgroundImage="comentarioLink">
+                                    <color key="titleColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Try-RZ-SMT" kind="show" identifier="goToComentarios" id="r2H-Rm-cyd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -276,6 +276,7 @@
                             <constraint firstItem="nfJ-Ty-8IT" firstAttribute="leading" secondItem="xgH-yb-nsf" secondAttribute="leadingMargin" id="Bj9-ld-oIA"/>
                             <constraint firstItem="zDd-Tm-9NB" firstAttribute="leading" secondItem="CtK-gb-EoC" secondAttribute="trailing" constant="6" id="Bvt-Kb-HSC"/>
                             <constraint firstItem="UWY-QA-STm" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="8" id="CEM-Nf-Ma6"/>
+                            <constraint firstItem="4XN-uj-z11" firstAttribute="top" secondItem="JAc-Ci-jWZ" secondAttribute="bottom" constant="8" id="FX7-LT-CPF"/>
                             <constraint firstItem="kik-Iv-62q" firstAttribute="leading" secondItem="4Ao-7i-kNk" secondAttribute="leading" id="IFZ-AJ-h0S"/>
                             <constraint firstItem="kik-Iv-62q" firstAttribute="top" secondItem="4Ao-7i-kNk" secondAttribute="top" id="Jzn-Jz-a5P"/>
                             <constraint firstItem="dBd-hO-eey" firstAttribute="leading" secondItem="xgH-yb-nsf" secondAttribute="leadingMargin" id="Klv-Kb-S40"/>
@@ -288,7 +289,6 @@
                             <constraint firstItem="kik-Iv-62q" firstAttribute="trailing" secondItem="4Ao-7i-kNk" secondAttribute="trailing" id="f58-6g-xZv"/>
                             <constraint firstItem="0Cm-zn-aaq" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="8" id="gZB-KL-El7"/>
                             <constraint firstItem="RQb-gL-Zq1" firstAttribute="trailing" secondItem="xgH-yb-nsf" secondAttribute="trailingMargin" id="jSM-UG-wAc"/>
-                            <constraint firstItem="4XN-uj-z11" firstAttribute="top" secondItem="JAc-Ci-jWZ" secondAttribute="bottom" constant="33" id="jmg-Xa-sG4"/>
                             <constraint firstItem="Gdd-Io-973" firstAttribute="top" secondItem="dBd-hO-eey" secondAttribute="bottom" constant="26" id="mjl-6m-SIr"/>
                             <constraint firstItem="RQb-gL-Zq1" firstAttribute="leading" secondItem="X52-nX-OBk" secondAttribute="trailing" constant="8" id="o8U-HK-WDr"/>
                             <constraint firstItem="dBd-hO-eey" firstAttribute="top" secondItem="nfJ-Ty-8IT" secondAttribute="bottom" constant="26" id="oEW-QA-GPO"/>
@@ -317,13 +317,13 @@
         <!--Comentarios View Controller-->
         <scene sceneID="orJ-5I-WZj">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="Try-RZ-SMT" customClass="ComentariosViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Try-RZ-SMT" customClass="ComentariosViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0rG-PF-ivZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XtY-b9-zJt">
-                                <rect key="frame" x="0.0" y="116" width="359" height="471"/>
+                                <rect key="frame" x="0.0" y="122" width="359" height="416"/>
                                 <color key="backgroundColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -422,7 +422,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sj8-uu-1As">
-                                <rect key="frame" x="141" y="607" width="92" height="40"/>
+                                <rect key="frame" x="141" y="558" width="92" height="40"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <state key="normal" title="Comentar" backgroundImage="Button">
                                     <color key="titleColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -439,7 +439,7 @@
                             <constraint firstAttribute="trailing" secondItem="XtY-b9-zJt" secondAttribute="trailing" constant="16" id="YcE-Oe-HkA"/>
                             <constraint firstItem="XtY-b9-zJt" firstAttribute="leading" secondItem="EQT-lz-2Ne" secondAttribute="leading" id="aEc-Cm-mQ0"/>
                             <constraint firstItem="Sj8-uu-1As" firstAttribute="centerX" secondItem="0rG-PF-ivZ" secondAttribute="centerX" id="knn-bj-ZTz"/>
-                            <constraint firstItem="XtY-b9-zJt" firstAttribute="top" secondItem="EQT-lz-2Ne" secondAttribute="top" id="uKo-NG-Sok"/>
+                            <constraint firstItem="XtY-b9-zJt" firstAttribute="top" secondItem="EQT-lz-2Ne" secondAttribute="top" constant="6" id="uKo-NG-Sok"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EQT-lz-2Ne"/>
                     </view>
@@ -450,7 +450,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AuM-2T-GEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4713" y="114"/>
+            <point key="canvasLocation" x="4712.8000000000002" y="113.79310344827587"/>
         </scene>
         <!--Comentar View Controller-->
         <scene sceneID="qzr-fV-71k">
@@ -691,11 +691,11 @@
             </objects>
             <point key="canvasLocation" x="2815" y="114"/>
         </scene>
-        <!--Bebidas Frías-->
+        <!--Compra-->
         <scene sceneID="qU5-0x-ccJ">
             <objects>
                 <navigationController id="TkF-x6-0AX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Bebidas Frías" image="BebidasFrias" id="Rat-QF-1Rk"/>
+                    <tabBarItem key="tabBarItem" title="Compra" image="CarritoIcono" id="Rat-QF-1Rk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="XRO-gT-daq">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -736,13 +736,28 @@
             <point key="canvasLocation" x="2814" y="884"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="9ls-07-uVM">
+            <objects>
+                <viewController id="Kca-iT-R01" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zgf-5Y-Ji0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h6Z-Wh-gOk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b1a-OG-itk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3734" y="884"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tlU-uX-vuZ">
             <objects>
                 <viewController id="rHK-qk-nHR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H0q-Ao-npH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.27058823529411763" green="0.1803921568627451" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ds3-92-zyj"/>
                     </view>
                     <navigationItem key="navigationItem" id="JAy-fe-OLO"/>
@@ -751,14 +766,25 @@
             </objects>
             <point key="canvasLocation" x="2814" y="1600"/>
         </scene>
-        <!--Item-->
+        <!--Configuración-->
         <scene sceneID="OFO-e7-HnR">
             <objects>
                 <navigationController id="QhJ-R4-HoR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="6vY-bx-eyz"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="19U-I1-Jb9">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <tabBarItem key="tabBarItem" title="Configuración" image="ConfiguracionesIcono" id="6vY-bx-eyz"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="19U-I1-Jb9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
+                            <color key="textColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="40"/>
+                            <color key="textColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="rHK-qk-nHR" kind="relationship" relationship="rootViewController" id="7Gq-Vw-exi"/>
@@ -770,9 +796,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BebidasFrias" width="7" height="14"/>
-        <image name="BebidasIcono" width="7" height="9"/>
+        <image name="BebidasIcono" width="18" height="23"/>
         <image name="Button" width="92" height="40"/>
+        <image name="CarritoIcono" width="25" height="23"/>
+        <image name="ConfiguracionesIcono" width="23" height="23"/>
         <image name="comentarioLink" width="278" height="48"/>
         <image name="corazon" width="16" height="15"/>
     </resources>
