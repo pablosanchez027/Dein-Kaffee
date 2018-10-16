@@ -28,8 +28,8 @@ class ComprarViewController : UIViewController {
     @IBOutlet weak var lblIngrediente3Counter: UILabel!
     
     
-    var bebida: Bebida?
-    var pedido: Pedido?
+    var bebida : Bebida?
+    var pedido : Pedido?
     var totalPedido: Int = 0
     
     override func viewDidLoad() {
@@ -85,14 +85,13 @@ class ComprarViewController : UIViewController {
     
     @IBAction func doTapComprar(_ sender: Any) {
         totalPedido = totalPedido + (bebida?.precioBebida)!
-        
-        let pedido : [Pedido] = [Pedido(bebidaPedido: lblTituloBebida.text!, ingrediente1Pedido: Int(lblIngrediente1Counter.text!)!, ingrediente2Pedido: Int(lblIngrediente2Counter.text!)!, ingrediente3Pedido: Int(lblIngrediente3Counter.text!)!, precioPedido: Int(lblPrecioBebida.text!)!, totalPedido: totalPedido)]
-        
+        /*
+        pedido.append(Pedido(bebidaPedido: lblTituloBebida.text, ingrediente1Pedido: lblIngrediente1Counter.text, ingrediente2Pedido: lblIngrediente2Counter, ingrediente3Pedido: lblIngrediente3Counter, precioPedido: Int(lblPrecioBebida.text), totalPedido: totalPedido))
         
         self.navigationController?.popViewController(animated: false)
         
         performSegue(withIdentifier: "goToCompra", sender: self)
-
+        */
     }
     
 }

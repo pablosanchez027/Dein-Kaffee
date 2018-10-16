@@ -213,9 +213,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdd-Io-973">
                                 <rect key="frame" x="16" y="444" width="343" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="dX5-RF-V1s"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -276,6 +273,7 @@
                             <constraint firstItem="CtK-gb-EoC" firstAttribute="leading" secondItem="UWY-QA-STm" secondAttribute="trailing" constant="8" id="QAZ-Id-vV2"/>
                             <constraint firstAttribute="bottomMargin" secondItem="4XN-uj-z11" secondAttribute="bottom" constant="20" id="T1y-5M-MDb"/>
                             <constraint firstItem="Ofq-uL-Tu4" firstAttribute="leading" secondItem="zDd-Tm-9NB" secondAttribute="trailing" constant="8" id="Um3-Nr-zj2"/>
+                            <constraint firstItem="4Ao-7i-kNk" firstAttribute="trailing" secondItem="Gdd-Io-973" secondAttribute="trailing" constant="16" id="e7e-fv-uhw"/>
                             <constraint firstItem="kik-Iv-62q" firstAttribute="trailing" secondItem="4Ao-7i-kNk" secondAttribute="trailing" id="f58-6g-xZv"/>
                             <constraint firstItem="0Cm-zn-aaq" firstAttribute="top" secondItem="kik-Iv-62q" secondAttribute="bottom" constant="8" id="gZB-KL-El7"/>
                             <constraint firstItem="RQb-gL-Zq1" firstAttribute="trailing" secondItem="xgH-yb-nsf" secondAttribute="trailingMargin" id="jSM-UG-wAc"/>
@@ -299,7 +297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23z-nb-mgT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3734" y="114"/>
+            <point key="canvasLocation" x="3733.5999999999999" y="113.79310344827587"/>
         </scene>
         <!--Comentarios View Controller-->
         <scene sceneID="orJ-5I-WZj">
@@ -331,8 +329,8 @@
                                                     <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comentario" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hO-Tn-0CF">
-                                                    <rect key="frame" x="16" y="58" width="343" height="19"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comentario" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hO-Tn-0CF">
+                                                    <rect key="frame" x="16" y="58" width="328" height="19"/>
                                                     <fontDescription key="fontDescription" name="CaviarDreams-Italic" family="Caviar Dreams" pointSize="17"/>
                                                     <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -379,7 +377,7 @@
                                                 <constraint firstItem="fXq-bH-xgA" firstAttribute="leading" secondItem="bni-YD-2Pd" secondAttribute="trailing" constant="8" id="BPn-Yb-fv3"/>
                                                 <constraint firstItem="5hO-Tn-0CF" firstAttribute="leading" secondItem="Oxr-ol-RFl" secondAttribute="leading" constant="16" id="DOl-l4-XSr"/>
                                                 <constraint firstItem="5hO-Tn-0CF" firstAttribute="top" secondItem="G3a-J0-lfb" secondAttribute="bottom" constant="25" id="JYE-MJ-rZx"/>
-                                                <constraint firstAttribute="trailing" secondItem="5hO-Tn-0CF" secondAttribute="trailing" id="LJx-LV-lCX"/>
+                                                <constraint firstAttribute="trailing" secondItem="5hO-Tn-0CF" secondAttribute="trailing" constant="15" id="LJx-LV-lCX"/>
                                                 <constraint firstItem="fXq-bH-xgA" firstAttribute="trailing" secondItem="Oxr-ol-RFl" secondAttribute="trailingMargin" id="TCl-5N-dfw"/>
                                                 <constraint firstItem="G3a-J0-lfb" firstAttribute="top" secondItem="Oxr-ol-RFl" secondAttribute="topMargin" id="aGC-o5-cdc"/>
                                                 <constraint firstItem="9vW-OB-ZLD" firstAttribute="leading" secondItem="ERs-oX-JcK" secondAttribute="trailing" constant="8" id="e7a-SD-Tuz"/>
@@ -388,6 +386,7 @@
                                                 <constraint firstItem="G5z-sB-wgj" firstAttribute="top" secondItem="Oxr-ol-RFl" secondAttribute="topMargin" id="myf-pg-7pV"/>
                                                 <constraint firstItem="fXq-bH-xgA" firstAttribute="top" secondItem="Oxr-ol-RFl" secondAttribute="topMargin" id="nKz-Ey-6wb"/>
                                                 <constraint firstItem="bni-YD-2Pd" firstAttribute="top" secondItem="Oxr-ol-RFl" secondAttribute="topMargin" id="ncT-Cd-t2b"/>
+                                                <constraint firstItem="5hO-Tn-0CF" firstAttribute="trailing" secondItem="Oxr-ol-RFl" secondAttribute="trailingMargin" id="oYk-ma-lhS"/>
                                                 <constraint firstItem="G3a-J0-lfb" firstAttribute="leading" secondItem="Oxr-ol-RFl" secondAttribute="leadingMargin" id="y1W-eI-NN1"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -437,7 +436,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AuM-2T-GEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4713" y="-603"/>
+            <point key="canvasLocation" x="4712.8000000000002" y="-603.14842578710648"/>
         </scene>
         <!--Comentar View Controller-->
         <scene sceneID="qzr-fV-71k">
@@ -962,6 +961,8 @@
                         <outlet property="lblPrecioBebida" destination="xfI-LU-0Aj" id="gV8-Av-9J7"/>
                         <outlet property="lblTituloBebida" destination="nWm-1a-UTH" id="yGA-Gl-e8x"/>
                         <outlet property="stpIngrediente1" destination="Z7o-Ik-k0c" id="izO-dD-U1C"/>
+                        <outlet property="stpIngrediente2" destination="vFb-Hz-s71" id="hl5-8m-V8L"/>
+                        <outlet property="stpIngrediente3" destination="Lam-sX-1TE" id="vyH-3P-oZw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1a-OG-itk" userLabel="First Responder" sceneMemberID="firstResponder"/>
