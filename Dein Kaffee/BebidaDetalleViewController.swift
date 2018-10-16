@@ -82,6 +82,7 @@ class BebidaDetalleViewController : UIViewController {
             let destino = segue.destination as! ComentariosViewController
             
             destino.comentarios = bebida?.comentariosBebida
+            destino.bebida = bebida
         }
     }
 }

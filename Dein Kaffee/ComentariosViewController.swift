@@ -16,6 +16,7 @@ class ComentariosViewController : UIViewController, UITableViewDelegate, UITable
     @IBOutlet weak var btnComentar: UIButton!
     
     var comentarios : [Comentario]?
+    var bebida : Bebida?
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 140
@@ -78,5 +79,11 @@ class ComentariosViewController : UIViewController, UITableViewDelegate, UITable
     }
     
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToComentar" {
+            let destino = segue.destination as! ComentarViewController
+            
+            destino.bebida = bebida
+        }
+    }
 }

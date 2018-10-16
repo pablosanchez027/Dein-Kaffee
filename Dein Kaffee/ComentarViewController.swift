@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 class ComentarViewController : UIViewController {
     
     @IBOutlet weak var txtUsuario: UITextField!
@@ -25,13 +24,13 @@ class ComentarViewController : UIViewController {
     
     
     var bebida : Bebida?
+    var calificacion = 0
     
-    @IBAction func doTapComentar(_ sender: Any) {
-        let usuario = txtUsuario.text!
-        let comentario = txtComentar.text!
-        let calificacionSlider = Int(sldCalificacion.value)
+    
+    @IBAction func sldCalificacionDinamica(_ sender: UISlider) {
+        let calificacion = Int(sldCalificacion.value)
         
-        switch calificacionSlider {
+        switch calificacion {
         case 1:
             imgCalificacion1.isHidden = false
             imgCalificacion2.isHidden = true
@@ -69,11 +68,20 @@ class ComentarViewController : UIViewController {
             imgCalificacion4.isHidden = true
             imgCalificacion5.isHidden = true
         }
-        
-        bebida?.comentariosBebida.append(Comentario(nombreComentario: usuario, textoComentario: comentario, calificacionComentario: calificacionSlider))
+    }
+
+    
+    @IBAction func doTapComentar(_ sender: Any) {
+        bebida?.comentariosBebida.append(Comentario(nombreComentario: txtUsuario.text!, textoComentario: txtComentar.text!, calificacionComentario: Int(sldCalificacion.value)))
         
         self.navigationController?.popViewController(animated: true)
     }
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.title = "Deja tu comentario"
+    }
 }
 
