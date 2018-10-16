@@ -11,6 +11,10 @@ import UIKit
 
 class ComentariosViewController : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var tbComentarios: UITableView!
+    
+    @IBOutlet weak var btnComentar: UIButton!
+    
     var comentarios : [Comentario]?
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -72,4 +76,7 @@ class ComentariosViewController : UIViewController, UITableViewDelegate, UITable
     override func viewDidLoad() {
         self.title = "Comentarios"
     }
+    
+    
+    
 }

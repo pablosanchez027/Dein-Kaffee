@@ -9,11 +9,13 @@
 import Foundation
 import UIKit
 
-class BebidasCalientesViewControllerB: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class BebidasViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet weak var tbBebidasCalientes: UITableView!
+    @IBOutlet weak var tbBebidas: UITableView!
+    
     let Bebidas : [Bebida] = [
-         Bebida(nombreBebida: "Café Americano", descripcionBebida: "Es la verdadera esencia del café en la forma más concentrada.", precioBebida: 29, iconoBebida: #imageLiteral(resourceName: "CafeAmericano"), imagenBebida: #imageLiteral(resourceName: "CafeAmericanoIMG"), calificacionBebida: 0, comentariosBebida: [Comentario(nombreComentario: "Sofía", textoComentario: "Le falta azúcar", calificacionComentario: 4)])
+         Bebida(nombreBebida: "Café Americano", descripcionBebida: "Es la verdadera esencia del café en la forma más concentrada.", precioBebida: 29, iconoBebida: #imageLiteral(resourceName: "CafeAmericano"), imagenBebida: #imageLiteral(resourceName: "CafeAmericanoIMG"), calificacionBebida: 0, comentariosBebida: [Comentario(nombreComentario: "Sofía", textoComentario: "Le falta azúcar", calificacionComentario: 4)]),
+          Bebida(nombreBebida: "Frappuccino de Fresa", descripcionBebida: "Deliciosa mezcla de crème y fresa con hielo y decorado con crema batida", precioBebida: 38, iconoBebida: #imageLiteral(resourceName: "FrapuccinoFresa"), imagenBebida: #imageLiteral(resourceName: "FrappuccinoFresaIMG"), calificacionBebida: 0, comentariosBebida: [Comentario(nombreComentario: "Sofía", textoComentario: "Mi fav lit!!", calificacionComentario: 5)])
     ]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -36,14 +38,14 @@ class BebidasCalientesViewControllerB: UIViewController, UITableViewDataSource, 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Bebidas Calientes"
+        self.title = "Bebidas"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == ("goToDetalleBebida") {
             let destino = segue.destination as? BebidaDetalleViewController
             
-            destino?.bebida = Bebidas[(tbBebidasCalientes.indexPathForSelectedRow?.row)!]
+            destino?.bebida = Bebidas[(tbBebidas.indexPathForSelectedRow?.row)!]
         }
     }
 }
