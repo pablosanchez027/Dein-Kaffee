@@ -29,7 +29,7 @@ class BebidaDetalleViewController : UIViewController {
         if let bebidaSeleccionada = bebida {
             self.title = bebidaSeleccionada.nombreBebida
             
-            lblPrecio.text = String(bebidaSeleccionada.precioBebida)
+            lblPrecio.text = "$ " + String(bebidaSeleccionada.precioBebida)
             lblDescripcion.text = bebidaSeleccionada.descripcionBebida
             imgBebida.image = bebidaSeleccionada.imagenBebida
             
