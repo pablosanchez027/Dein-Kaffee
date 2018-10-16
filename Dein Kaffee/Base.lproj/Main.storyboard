@@ -774,6 +774,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hD7-FJ-Lxm" id="xBO-hE-LVA"/>
+                                    <outlet property="delegate" destination="hD7-FJ-Lxm" id="qdm-Ny-AHa"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipZ-sR-8EN">
                                 <rect key="frame" x="154" y="507" width="66" height="43"/>
