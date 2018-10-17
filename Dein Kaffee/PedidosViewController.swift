@@ -31,16 +31,18 @@ class PedidosViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         lblTotal.text = "$ " + String(totalCompra)
         
         self.title = "Pedidos"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == ("goToPedido") {
-            let destino = segue.destination as! PedidoDetalleViewController
+        if segue.identifier == "goToPedido" {
+            let destino = segue.destination as? PedidoDetalleViewController
             
-            destino.pedido = Datos.Pedidos[(tbPedidos.indexPathForSelectedRow?.row)!]
+            destino?.pedido = Datos.Pedidos[(tbPedidos.indexPathForSelectedRow?.row)!]
         }
     }
 }

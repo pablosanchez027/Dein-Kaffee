@@ -37,7 +37,7 @@ class BebidasViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == ("goToDetalleBebida") {
+        if segue.identifier == "goToDetalleBebida" {
             let destino = segue.destination as? BebidaDetalleViewController
             
             destino?.bebida = Datos.Bebidas[(tbBebidas.indexPathForSelectedRow?.row)!]

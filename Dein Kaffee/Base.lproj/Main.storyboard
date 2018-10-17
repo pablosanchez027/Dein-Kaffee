@@ -765,7 +765,7 @@
                                         <connections>
                                             <outlet property="lblPedidos" destination="LIN-Mn-5ik" id="Lxp-0M-b1I"/>
                                             <outlet property="lblPrecio" destination="ZqK-BM-fkG" id="2db-yI-Q8B"/>
-                                            <segue destination="ga8-6M-8vl" kind="show" identifier="goToPedido" id="EiD-J4-yrm"/>
+                                            <segue destination="ga8-6M-8vl" kind="show" identifier="goToPedido" id="a6q-xb-OxA"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1018,7 +1018,7 @@
         <!--Pedido Detalle View Controller-->
         <scene sceneID="YE1-W1-ekH">
             <objects>
-                <viewController id="ga8-6M-8vl" customClass="PedidoDetalleViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="ga8-6M-8vl" customClass="PedidoDetalleViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l0X-40-vgD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
