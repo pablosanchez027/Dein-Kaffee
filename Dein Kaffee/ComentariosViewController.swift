@@ -73,11 +73,13 @@ class ComentariosViewController : UIViewController, UITableViewDelegate, UITable
         
         return celda
     }
+
     
-    override func viewDidLoad() {
+    override func viewWillAppear(_ animated: Bool) {
+        tbComentarios.reloadData()
         self.title = "Comentarios"
     }
-    
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToComentar" {

@@ -29,8 +29,7 @@ class ComprarViewController : UIViewController {
     
     
     var bebida : Bebida?
-    var pedido : Pedido?
-    var totalPedido: Int = 0
+    var precioBebida : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +39,8 @@ class ComprarViewController : UIViewController {
         if let bebidaSeleccionada = bebida {
             lblTituloBebida.text = bebidaSeleccionada.nombreBebida
             imgBebida.image = bebidaSeleccionada.iconoBebida
+            lblPrecioBebida.text = "$ " + String(bebidaSeleccionada.precioBebida)
+            precioBebida = bebidaSeleccionada.precioBebida
         }
         
         switch bebida?.tipoBebida {
@@ -84,14 +85,19 @@ class ComprarViewController : UIViewController {
     
     
     @IBAction func doTapComprar(_ sender: Any) {
-        totalPedido = totalPedido + (bebida?.precioBebida)!
-        /*
-        pedido.append(Pedido(bebidaPedido: lblTituloBebida.text, ingrediente1Pedido: lblIngrediente1Counter.text, ingrediente2Pedido: lblIngrediente2Counter, ingrediente3Pedido: lblIngrediente3Counter, precioPedido: Int(lblPrecioBebida.text), totalPedido: totalPedido))
+        let nombre = lblTituloBebida.text!
+        let ingrediente1 = Int(lblIngrediente1Counter.text!)!
+        let ingrediente2 = Int(lblIngrediente2Counter.text!)!
+        let ingrediente3 = Int(lblIngrediente3Counter.text!)!
+        let precio = precioBebida
+    
         
-        self.navigationController?.popViewController(animated: false)
+        Datos.Pedidos.append(Pedido(bebidaPedido: nombre, ingrediente1Pedido: ingrediente1, ingrediente2Pedido: ingrediente2, ingrediente3Pedido: ingrediente3, precioPedido: precio, tipoPedido: (bebida?.tipoBebida)!))
+        
+        self.navigationController?.popViewController(animated: true)
         
         performSegue(withIdentifier: "goToCompra", sender: self)
-        */
+       
     }
     
 }

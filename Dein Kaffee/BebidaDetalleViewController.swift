@@ -33,14 +33,7 @@ class BebidaDetalleViewController : UIViewController {
             lblDescripcion.text = bebidaSeleccionada.descripcionBebida
             imgBebida.image = bebidaSeleccionada.imagenBebida
             
-            var counter = 0
-            var comentarios = 0
-            
-            while counter < bebidaSeleccionada.comentariosBebida[Comentario(calificacionComentario)].count {
-                var newValue = bebidaSeleccionada.comentariosBebida[counter]
-                var comentarios =+newValue
-                counter =+1
-            }
+
             
             let calificacion = Int(bebidaSeleccionada.calificacionBebida)
             

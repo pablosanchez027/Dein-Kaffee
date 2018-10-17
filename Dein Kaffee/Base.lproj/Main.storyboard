@@ -171,48 +171,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="Ofq-uL-Tu4">
-                                <rect key="frame" x="324" y="341" width="35" height="35"/>
+                                <rect key="frame" x="324" y="342" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="D4f-eW-CFT"/>
                                     <constraint firstAttribute="height" constant="35" id="INd-wQ-VZ8"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="zDd-Tm-9NB">
-                                <rect key="frame" x="281" y="341" width="35" height="35"/>
+                                <rect key="frame" x="281" y="342" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="c6N-zD-TPi"/>
                                     <constraint firstAttribute="width" constant="35" id="gFF-C2-gbe"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="CtK-gb-EoC">
-                                <rect key="frame" x="240" y="341" width="35" height="35"/>
+                                <rect key="frame" x="240" y="342" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="4Aj-iA-7T5"/>
                                     <constraint firstAttribute="height" constant="35" id="ChT-Lv-xTU"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="UWY-QA-STm">
-                                <rect key="frame" x="197" y="341" width="35" height="35"/>
+                                <rect key="frame" x="197" y="342" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="7JX-0q-fsI"/>
                                     <constraint firstAttribute="width" constant="35" id="yUV-TR-XYB"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="0Cm-zn-aaq">
-                                <rect key="frame" x="154" y="341" width="35" height="35"/>
+                                <rect key="frame" x="154" y="342" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="UDi-fC-SfA"/>
                                     <constraint firstAttribute="width" constant="35" id="jjh-wy-hsR"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBd-hO-eey">
-                                <rect key="frame" x="16" y="396" width="55.5" height="22"/>
+                                <rect key="frame" x="16" y="397" width="55.5" height="22"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdd-Io-973">
-                                <rect key="frame" x="16" y="444" width="343" height="20"/>
+                                <rect key="frame" x="16" y="445" width="343" height="20"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -228,7 +228,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQb-gL-Zq1">
-                                <rect key="frame" x="300" y="396" width="59" height="22"/>
+                                <rect key="frame" x="300" y="397" width="59" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="71m-63-4Or"/>
                                     <constraint firstAttribute="width" constant="59" id="LML-tH-yC5"/>
@@ -238,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kik-Iv-62q">
-                                <rect key="frame" x="0.0" y="118" width="375" height="215"/>
+                                <rect key="frame" x="0.0" y="119" width="375" height="215"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="215" id="ix8-7d-NSH"/>
                                 </constraints>
@@ -308,7 +308,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XtY-b9-zJt">
-                                <rect key="frame" x="0.0" y="124" width="359" height="414"/>
+                                <rect key="frame" x="0.0" y="125" width="359" height="413"/>
                                 <color key="backgroundColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -447,60 +447,60 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" value="5" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="8IB-lL-Syw">
-                                <rect key="frame" x="14" y="281" width="347" height="31"/>
+                                <rect key="frame" x="14" y="281.5" width="347" height="31"/>
                                 <connections>
                                     <action selector="sldCalificacionDinamica:" destination="mwf-8z-6rO" eventType="valueChanged" id="yNz-GM-1Iw"/>
                                 </connections>
                             </slider>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Comentario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YZ2-cD-xZe">
-                                <rect key="frame" x="16" y="209" width="343" height="30"/>
+                                <rect key="frame" x="16" y="210" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hFe-cZ-aKC">
-                                <rect key="frame" x="16" y="171" width="343" height="30"/>
+                                <rect key="frame" x="16" y="172" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="U0d-up-upd">
-                                <rect key="frame" x="324" y="319" width="35" height="35"/>
+                                <rect key="frame" x="324" y="319.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Csi-pT-iZP"/>
                                     <constraint firstAttribute="width" constant="35" id="biN-sy-ZzH"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="K6L-7o-OPZ">
-                                <rect key="frame" x="281" y="319" width="35" height="35"/>
+                                <rect key="frame" x="281" y="319.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="INr-io-iOy"/>
                                     <constraint firstAttribute="width" constant="35" id="aLh-hU-eJ3"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="iVO-iL-kX5">
-                                <rect key="frame" x="240" y="319" width="35" height="35"/>
+                                <rect key="frame" x="240" y="319.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="EwZ-7e-tBZ"/>
                                     <constraint firstAttribute="width" constant="35" id="fbt-2a-FvY"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="Uby-m2-Zdr">
-                                <rect key="frame" x="197" y="319" width="35" height="35"/>
+                                <rect key="frame" x="197" y="319.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="48V-LN-sai"/>
                                     <constraint firstAttribute="height" constant="35" id="Yez-K1-ggY"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="corazon" translatesAutoresizingMaskIntoConstraints="NO" id="p0v-fO-5PZ">
-                                <rect key="frame" x="154" y="319" width="35" height="35"/>
+                                <rect key="frame" x="154" y="319.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="MXN-Bm-NMo"/>
                                     <constraint firstAttribute="height" constant="35" id="r5n-ed-UNU"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comenta:" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSx-tv-EEB">
-                                <rect key="frame" x="16" y="138" width="185" height="25.5"/>
+                                <rect key="frame" x="16" y="139" width="185" height="25.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="185" id="Bxs-FJ-Pp6"/>
                                 </constraints>
@@ -509,7 +509,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Califica:" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7n-9e-ZsB">
-                                <rect key="frame" x="16" y="247" width="185" height="26"/>
+                                <rect key="frame" x="16" y="248" width="185" height="25.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="185" id="a2X-tR-Ioq"/>
                                 </constraints>
@@ -580,7 +580,7 @@
                 <navigationController modalTransitionStyle="flipHorizontal" id="8Qg-Ax-MGL" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Bebidas" image="BebidasIcono" id="hmu-Yv-1V5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="hUP-oB-Me4">
-                        <rect key="frame" x="0.0" y="20" width="375" height="98"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="99"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -609,7 +609,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CpS-Dn-Ca8">
-                                <rect key="frame" x="0.0" y="118" width="359" height="500"/>
+                                <rect key="frame" x="0.0" y="119" width="359" height="499"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -683,7 +683,7 @@
                 <navigationController id="TkF-x6-0AX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Compra" image="CarritoIcono" id="Rat-QF-1Rk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="XRO-gT-daq">
-                        <rect key="frame" x="0.0" y="20" width="375" height="98"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="99"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -713,14 +713,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LK2-Fh-mez">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LK2-Fh-mez">
                                 <rect key="frame" x="141.5" y="558" width="92" height="40"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
                                 <state key="normal" title="Pagar" backgroundImage="Button">
                                     <color key="titleColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="wey-FQ-EZv">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="wey-FQ-EZv">
                                 <rect key="frame" x="0.0" y="116" width="359" height="383"/>
                                 <color key="backgroundColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -765,6 +765,7 @@
                                         <connections>
                                             <outlet property="lblPedidos" destination="LIN-Mn-5ik" id="Lxp-0M-b1I"/>
                                             <outlet property="lblPrecio" destination="ZqK-BM-fkG" id="2db-yI-Q8B"/>
+                                            <segue destination="ga8-6M-8vl" kind="show" identifier="goToPedido" id="EiD-J4-yrm"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -773,7 +774,7 @@
                                     <outlet property="delegate" destination="hD7-FJ-Lxm" id="qdm-Ny-AHa"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipZ-sR-8EN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipZ-sR-8EN">
                                 <rect key="frame" x="154" y="507" width="66" height="43"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -821,67 +822,67 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bebida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWm-1a-UTH">
-                                <rect key="frame" x="151" y="134" width="73" height="24.5"/>
+                                <rect key="frame" x="151" y="135" width="73" height="24.5"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Italic" family="Caviar Dreams" pointSize="22"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes extra:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfJ-Ty-8IT">
-                                <rect key="frame" x="16" y="166" width="156" height="22"/>
+                                <rect key="frame" x="16" y="167" width="156" height="22"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Z7o-Ik-k0c">
-                                <rect key="frame" x="265" y="199" width="94" height="29"/>
+                                <rect key="frame" x="265" y="200" width="94" height="29"/>
                                 <connections>
                                     <action selector="stpIngrediente1Action:" destination="Kca-iT-R01" eventType="valueChanged" id="rrn-lv-SYg"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 1" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGe-wr-HYd">
-                                <rect key="frame" x="16" y="203" width="241" height="20"/>
+                                <rect key="frame" x="16" y="204" width="241" height="20"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgt-RR-96B">
-                                <rect key="frame" x="180.5" y="231" width="13" height="25.5"/>
+                                <rect key="frame" x="180.5" y="232" width="13" height="25.5"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="vFb-Hz-s71">
-                                <rect key="frame" x="265" y="259" width="94" height="29"/>
+                                <rect key="frame" x="265" y="260" width="94" height="29"/>
                                 <connections>
                                     <action selector="stpIngrediente2Action:" destination="Kca-iT-R01" eventType="valueChanged" id="2Dr-56-h8u"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 2" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biC-lN-t1H">
-                                <rect key="frame" x="16" y="263" width="241" height="20"/>
+                                <rect key="frame" x="16" y="264" width="241" height="20"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tq-5E-GiB">
-                                <rect key="frame" x="180.5" y="291" width="13" height="25.5"/>
+                                <rect key="frame" x="180.5" y="292" width="13" height="25.5"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Lam-sX-1TE">
-                                <rect key="frame" x="265" y="319" width="94" height="29"/>
+                                <rect key="frame" x="265" y="320" width="94" height="29"/>
                                 <connections>
                                     <action selector="stpIngrediente3Action:" destination="Kca-iT-R01" eventType="valueChanged" id="aXe-Cy-bQH"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 3" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNG-vD-UcK">
-                                <rect key="frame" x="16" y="323" width="241" height="20"/>
+                                <rect key="frame" x="16" y="324" width="241" height="20"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yn-Co-gWx">
-                                <rect key="frame" x="180.5" y="351" width="13" height="25.5"/>
+                                <rect key="frame" x="180.5" y="352" width="13" height="25.5"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -894,10 +895,7 @@
                                     <color key="titleColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="doTapComprar:" destination="Kca-iT-R01" eventType="touchUpInside" id="bN1-OF-4tC"/>
-                                    <outletCollection property="gestureRecognizers" destination="JXT-eU-CWS" appends="YES" id="e32-u7-WE0"/>
-                                    <outletCollection property="gestureRecognizers" destination="M5A-lX-a4b" appends="YES" id="Sbe-Kz-WQx"/>
-                                    <segue destination="hD7-FJ-Lxm" kind="show" identifier="goToCompra" id="wTh-fn-mwM"/>
+                                    <action selector="doTapComprar:" destination="Kca-iT-R01" eventType="touchUpInside" id="DBa-ts-Scy"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Fb-fe-bFp">
@@ -907,9 +905,8 @@
                                     <constraint firstAttribute="height" constant="100" id="yBy-zZ-nln"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bebida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfI-LU-0Aj">
-                                <rect key="frame" x="151" y="410" width="77" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfI-LU-0Aj">
+                                <rect key="frame" x="160" y="407" width="54" height="28"/>
                                 <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="22"/>
                                 <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -918,6 +915,7 @@
                         <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nWm-1a-UTH" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="0Ec-kG-zhi"/>
+                            <constraint firstItem="1Fb-fe-bFp" firstAttribute="top" secondItem="xfI-LU-0Aj" secondAttribute="bottom" constant="8" id="1km-Vn-UZz"/>
                             <constraint firstItem="nfJ-Ty-8IT" firstAttribute="top" secondItem="nWm-1a-UTH" secondAttribute="bottom" constant="8" id="4Pl-PT-GrN"/>
                             <constraint firstItem="biC-lN-t1H" firstAttribute="leading" secondItem="h6Z-Wh-gOk" secondAttribute="leading" constant="16" id="4Z5-Xd-5ia"/>
                             <constraint firstItem="Lam-sX-1TE" firstAttribute="top" secondItem="vFb-Hz-s71" secondAttribute="bottom" constant="31" id="5f3-tx-9U6"/>
@@ -946,6 +944,7 @@
                             <constraint firstItem="1Yn-Co-gWx" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="qVp-A4-bt9"/>
                             <constraint firstItem="nfJ-Ty-8IT" firstAttribute="leading" secondItem="Zgf-5Y-Ji0" secondAttribute="leadingMargin" id="svF-Gz-3Gr"/>
                             <constraint firstItem="h6Z-Wh-gOk" firstAttribute="trailing" secondItem="vFb-Hz-s71" secondAttribute="trailing" constant="16" id="wJt-Sv-ICa"/>
+                            <constraint firstItem="xfI-LU-0Aj" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="xke-aQ-JJ8"/>
                             <constraint firstItem="DOE-0S-Cnb" firstAttribute="centerX" secondItem="Zgf-5Y-Ji0" secondAttribute="centerX" id="z17-go-nXP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="h6Z-Wh-gOk"/>
@@ -963,6 +962,7 @@
                         <outlet property="stpIngrediente1" destination="Z7o-Ik-k0c" id="izO-dD-U1C"/>
                         <outlet property="stpIngrediente2" destination="vFb-Hz-s71" id="hl5-8m-V8L"/>
                         <outlet property="stpIngrediente3" destination="Lam-sX-1TE" id="vyH-3P-oZw"/>
+                        <segue destination="hD7-FJ-Lxm" kind="show" identifier="goToCompra" id="Ary-bB-5ha"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1a-OG-itk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -993,7 +993,7 @@
                 <navigationController id="QhJ-R4-HoR" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Configuración" image="ConfiguracionesIcono" id="6vY-bx-eyz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="19U-I1-Jb9">
-                        <rect key="frame" x="0.0" y="20" width="375" height="98"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="99"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.27450980390000002" green="0.18039215689999999" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -1015,6 +1015,114 @@
             </objects>
             <point key="canvasLocation" x="1758" y="1600"/>
         </scene>
+        <!--Pedido Detalle View Controller-->
+        <scene sceneID="YE1-W1-ekH">
+            <objects>
+                <viewController id="ga8-6M-8vl" customClass="PedidoDetalleViewController" customModule="Dein_Kaffee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l0X-40-vgD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="prg-r8-5My">
+                                <rect key="frame" x="137" y="498" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="jfF-mJ-aBS"/>
+                                    <constraint firstAttribute="width" constant="100" id="uhB-Ra-QPj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwe-Iq-CJf">
+                                <rect key="frame" x="160" y="462" width="54" height="28"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="22"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredientes extra:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjj-LX-sDC">
+                                <rect key="frame" x="16" y="119" width="156" height="22"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 1" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRz-Ab-Rsd">
+                                <rect key="frame" x="16" y="156" width="104" height="20"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXi-Px-r7y">
+                                <rect key="frame" x="346" y="154" width="13" height="25.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 3" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCj-5s-jcX">
+                                <rect key="frame" x="16" y="276" width="104" height="20"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdj-RN-Hxo">
+                                <rect key="frame" x="346" y="213.5" width="13" height="25.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKG-k1-z1n">
+                                <rect key="frame" x="346" y="273" width="13" height="25.5"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="20"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrediente 2" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgM-Lg-44n">
+                                <rect key="frame" x="16" y="216" width="104" height="20"/>
+                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.56470588239999997" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2784313725" green="0.18039215689999999" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rXi-Px-r7y" firstAttribute="top" secondItem="Elv-18-rLF" secondAttribute="top" constant="35" id="0aa-mw-iw5"/>
+                            <constraint firstItem="mjj-LX-sDC" firstAttribute="top" secondItem="Elv-18-rLF" secondAttribute="top" id="2xz-r7-hkD"/>
+                            <constraint firstItem="Elv-18-rLF" firstAttribute="trailing" secondItem="rXi-Px-r7y" secondAttribute="trailing" constant="16" id="4bX-Gg-reE"/>
+                            <constraint firstItem="fgM-Lg-44n" firstAttribute="top" secondItem="uRz-Ab-Rsd" secondAttribute="bottom" constant="40" id="5AC-sr-GSz"/>
+                            <constraint firstItem="Elv-18-rLF" firstAttribute="trailing" secondItem="oKG-k1-z1n" secondAttribute="trailing" constant="16" id="9IX-h9-OwT"/>
+                            <constraint firstItem="uRz-Ab-Rsd" firstAttribute="leading" secondItem="Elv-18-rLF" secondAttribute="leading" constant="16" id="Biu-by-NTi"/>
+                            <constraint firstItem="YCj-5s-jcX" firstAttribute="leading" secondItem="Elv-18-rLF" secondAttribute="leading" constant="16" id="Ch9-Zx-4xr"/>
+                            <constraint firstItem="oKG-k1-z1n" firstAttribute="top" secondItem="Sdj-RN-Hxo" secondAttribute="bottom" constant="34.5" id="Iaf-Zf-AI7"/>
+                            <constraint firstItem="fgM-Lg-44n" firstAttribute="leading" secondItem="Elv-18-rLF" secondAttribute="leading" constant="16" id="Ri6-0n-fEL"/>
+                            <constraint firstItem="Elv-18-rLF" firstAttribute="trailing" secondItem="Sdj-RN-Hxo" secondAttribute="trailing" constant="16" id="Th1-q9-vQN"/>
+                            <constraint firstItem="uRz-Ab-Rsd" firstAttribute="top" secondItem="mjj-LX-sDC" secondAttribute="bottom" constant="15" id="TtX-Xs-S35"/>
+                            <constraint firstItem="Dwe-Iq-CJf" firstAttribute="centerX" secondItem="prg-r8-5My" secondAttribute="centerX" id="dQb-oW-IIl"/>
+                            <constraint firstItem="prg-r8-5My" firstAttribute="centerX" secondItem="l0X-40-vgD" secondAttribute="centerX" id="gan-Y6-caR"/>
+                            <constraint firstItem="Sdj-RN-Hxo" firstAttribute="top" secondItem="rXi-Px-r7y" secondAttribute="bottom" constant="34.5" id="h1C-3R-L9R"/>
+                            <constraint firstAttribute="bottom" secondItem="Dwe-Iq-CJf" secondAttribute="bottom" constant="177" id="hEN-2n-e02"/>
+                            <constraint firstItem="prg-r8-5My" firstAttribute="top" secondItem="Dwe-Iq-CJf" secondAttribute="bottom" constant="8" symbolic="YES" id="j0j-Ee-U65"/>
+                            <constraint firstItem="mjj-LX-sDC" firstAttribute="leading" secondItem="Elv-18-rLF" secondAttribute="leading" constant="16" id="qjK-5D-6hG"/>
+                            <constraint firstItem="YCj-5s-jcX" firstAttribute="top" secondItem="fgM-Lg-44n" secondAttribute="bottom" constant="40" id="rAZ-ae-01S"/>
+                            <constraint firstItem="mjj-LX-sDC" firstAttribute="leading" secondItem="l0X-40-vgD" secondAttribute="leadingMargin" id="xkN-IR-Hxv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Elv-18-rLF"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgBebida" destination="prg-r8-5My" id="uZV-M6-4OD"/>
+                        <outlet property="imgPedido" destination="prg-r8-5My" id="cCd-Mo-Ydd"/>
+                        <outlet property="lblIngrediente1" destination="uRz-Ab-Rsd" id="uvR-oS-l03"/>
+                        <outlet property="lblIngrediente1Cantidad" destination="rXi-Px-r7y" id="8rj-R9-SZf"/>
+                        <outlet property="lblIngrediente1Counter" destination="rXi-Px-r7y" id="GVI-0h-9GL"/>
+                        <outlet property="lblIngrediente2" destination="fgM-Lg-44n" id="hPR-F1-Who"/>
+                        <outlet property="lblIngrediente2Cantidad" destination="Sdj-RN-Hxo" id="AJ3-p2-yhw"/>
+                        <outlet property="lblIngrediente3" destination="YCj-5s-jcX" id="FpH-Xi-hEM"/>
+                        <outlet property="lblIngrediente3Cantidad" destination="oKG-k1-z1n" id="Qxo-kd-dla"/>
+                        <outlet property="lblPrecioBebida" destination="Dwe-Iq-CJf" id="Dm8-Yt-4Y7"/>
+                        <outlet property="lblTotal" destination="Dwe-Iq-CJf" id="odD-5h-8Kr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5BH-Ia-I4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4oY-21-70j"/>
+                <tapGestureRecognizer id="vk2-1d-4HX"/>
+            </objects>
+            <point key="canvasLocation" x="3734" y="884"/>
+        </scene>
     </scenes>
     <resources>
         <image name="BebidasIcono" width="18" height="23"/>
@@ -1025,7 +1133,7 @@
         <image name="corazon" width="16" height="15"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wTh-fn-mwM"/>
+        <segue reference="Ary-bB-5ha"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.85098039219999999" green="0.56470588239999997" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

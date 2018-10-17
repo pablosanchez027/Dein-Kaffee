@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D0F49DD217093E40026B2CB /* InicioSesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F49DC217093E40026B2CB /* InicioSesionController.swift */; };
+		3D1BAB9B2176C0100005FAE5 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BAB9A2176C0100005FAE5 /* Datos.swift */; };
+		3D1BAB9D2176D27B0005FAE5 /* PedidoDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BAB9C2176D27B0005FAE5 /* PedidoDetalleViewController.swift */; };
 		3D3502E12175F43500293DF0 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3502E02175F43500293DF0 /* Pedido.swift */; };
 		3D3502E32175F61900293DF0 /* PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3502E22175F61900293DF0 /* PedidosViewController.swift */; };
 		3D3502E52175F62300293DF0 /* celdaPedidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3502E42175F62300293DF0 /* celdaPedidos.swift */; };
@@ -52,6 +54,8 @@
 
 /* Begin PBXFileReference section */
 		3D0F49DC217093E40026B2CB /* InicioSesionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesionController.swift; sourceTree = "<group>"; };
+		3D1BAB9A2176C0100005FAE5 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		3D1BAB9C2176D27B0005FAE5 /* PedidoDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoDetalleViewController.swift; sourceTree = "<group>"; };
 		3D3502E02175F43500293DF0 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
 		3D3502E22175F61900293DF0 /* PedidosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosViewController.swift; sourceTree = "<group>"; };
 		3D3502E42175F62300293DF0 /* celdaPedidos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaPedidos.swift; sourceTree = "<group>"; };
@@ -151,6 +155,7 @@
 		3DD6782C217062F000B320C0 /* Dein Kaffee */ = {
 			isa = PBXGroup;
 			children = (
+				3D1BAB9A2176C0100005FAE5 /* Datos.swift */,
 				3DD6785F217063A400B320C0 /* app */,
 				3DD6785D2170633200B320C0 /* Models */,
 				3DD6786221707B4600B320C0 /* Resources */,
@@ -207,6 +212,7 @@
 				3D6CFC9D2172A69E00D0825A /* BebidaDetalleViewController.swift */,
 				3DEB73DF2174EB2100A457C6 /* ComentarViewController.swift */,
 				3D3502E62175F63600293DF0 /* ComprarViewController.swift */,
+				3D1BAB9C2176D27B0005FAE5 /* PedidoDetalleViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0F49DD217093E40026B2CB /* InicioSesionController.swift in Sources */,
+				3D1BAB9B2176C0100005FAE5 /* Datos.swift in Sources */,
 				3DD67830217062F000B320C0 /* ViewController.swift in Sources */,
 				3D3502E72175F63600293DF0 /* ComprarViewController.swift in Sources */,
 				3D6CFC9A217285B800D0825A /* Comentario.swift in Sources */,
@@ -387,6 +394,7 @@
 				3DEB73E02174EB2100A457C6 /* ComentarViewController.swift in Sources */,
 				3D3502E12175F43500293DF0 /* Pedido.swift in Sources */,
 				3D3502E32175F61900293DF0 /* PedidosViewController.swift in Sources */,
+				3D1BAB9D2176D27B0005FAE5 /* PedidoDetalleViewController.swift in Sources */,
 				3D6CFCA22172B73E00D0825A /* celdaComentarios.swift in Sources */,
 				3DD6782E217062F000B320C0 /* AppDelegate.swift in Sources */,
 				3D3502E52175F62300293DF0 /* celdaPedidos.swift in Sources */,

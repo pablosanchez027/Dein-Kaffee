@@ -26,7 +26,6 @@ class ComentarViewController : UIViewController {
     var bebida : Bebida?
     var calificacion = 0
     
-    
     @IBAction func sldCalificacionDinamica(_ sender: UISlider) {
         let calificacion = Int(sldCalificacion.value)
         
@@ -73,6 +72,7 @@ class ComentarViewController : UIViewController {
     
     @IBAction func doTapComentar(_ sender: Any) {
         bebida?.comentariosBebida.append(Comentario(nombreComentario: txtUsuario.text!, textoComentario: txtComentar.text!, calificacionComentario: Int(sldCalificacion.value)))
+        
         
         self.navigationController?.popViewController(animated: true)
     }

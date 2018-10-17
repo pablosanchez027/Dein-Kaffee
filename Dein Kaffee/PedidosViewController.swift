@@ -11,25 +11,19 @@ import UIKit
 
 class PedidosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var pedidos: Pedido?
     var totalCompra :Int = 0
     @IBOutlet weak var tbPedidos: UITableView!
     @IBOutlet weak var lblTotal: UILabel!
-    let Pedidos : [Pedido] = []
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Pedidos.count
+        return Datos.Pedidos.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "cellPedidos") as! celdaPedidos
         
-        celda.lblPedidos.text = Pedidos[indexPath.row].bebidaPedido
-        celda.lblPrecio.text = "$ " + Pedidos[indexPath.row].bebidaPedido
-        
-        totalCompra = totalCompra + (pedidos?.totalPedido)!
-        
-        lblTotal.text = "$ " + String(totalCompra)
+        celda.lblPedidos.text = Datos.Pedidos[indexPath.row].bebidaPedido
+        celda.lblPrecio.text = "$ " + "\(Datos.Pedidos[indexPath.row].precioPedido)"
         
         return celda
     }
@@ -37,6 +31,16 @@ class PedidosViewController: UIViewController, UITableViewDataSource, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        lblTotal.text = "$ " + String(totalCompra)
+        
         self.title = "Pedidos"
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == ("goToPedido") {
+            let destino = segue.destination as! PedidoDetalleViewController
+            
+            destino.pedido = Datos.Pedidos[(tbPedidos.indexPathForSelectedRow?.row)!]
+        }
     }
 }
